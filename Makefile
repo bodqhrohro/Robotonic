@@ -1,2 +1,2 @@
 all:
-	gcc -lm Robotonic.c -o robotonic
+	$(CC) $(CFLAGS) $(LDFLAGS) Robotonic.c -o robotonic -lm
